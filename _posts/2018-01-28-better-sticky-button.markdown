@@ -24,16 +24,16 @@ A product variant is an alternative option for a particular product.  For exampl
 ## I accidentally deleted the advanced settings and now nothing works
 The defaults for the advanced settings are as follows:  
 ### Buy Button Selector
-form[action^='/cart/add']:first [type=submit]:visible:first
+<pre>form[action^='/cart/add']:first [type=submit]:visible:first</pre>
 
 ### Review Stars 
-.yotpo-stars:first, .spr-badge-starrating:first, .spr-starrating:first
+<pre>.yotpo-stars:first, .spr-badge-starrating:first, .spr-starrating:first</pre>
 
 ### Form Selector
-form[action^='/cart/add']
+<pre>form[action^='/cart/add']</pre>
 
 ### Variant Selector
-form[action^='/cart/add']:first select:visible, .radio-wrapper fieldset
+<pre>form[action^='/cart/add']:first select:visible, .radio-wrapper fieldset</pre>
 
 ## What is the desktop/mobile reveal at?
 The mobile/desktop reveal at is how far you need to scroll down for the better sticky button to become visible.  It is defaulted at 100px.  But if you want it to be always visible set it to 0.  Or if you want it to be a bit further down, set it to a higher number like 150 or 200.
@@ -42,12 +42,19 @@ The mobile/desktop reveal at is how far you need to scroll down for the better s
 Currency symbols are how the numbers are formatted.  Let's imagine we were showing the number $2170.50.
 
 **Blank:** The price won't be displayed
+
 **Default::** 2,171.50
+
 **Amount no decimals:** 2171
+
 **Amount with comma seperator:** 2170,50
+
 **Amount No Decimals with comma separator:** 2171
+
 **Amount with apostrophe separator:** 2170'50
+
 **Amount no decimals with space separator:** 2171
+
 **Amount:** 2170.50
 
 ## What is the mobile/desktop z-index?
