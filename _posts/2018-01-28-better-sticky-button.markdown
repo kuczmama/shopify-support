@@ -39,11 +39,16 @@ form[action^='/cart/add']:first select:visible, .radio-wrapper fieldset
 The mobile/desktop reveal at is how far you need to scroll down for the better sticky button to become visible.  It is defaulted at 100px.  But if you want it to be always visible set it to 0.  Or if you want it to be a bit further down, set it to a higher number like 150 or 200.
 
 ## What are the 'Currency Symbols"?
-Currency symbols are how the numbers are formatted.  Let's imagine we were showing the number 1,000,000.00.
+Currency symbols are how the numbers are formatted.  Let's imagine we were showing the number $2170.50.
 
-Amount no decimals:
-Amount with comma seperator:
-
+**Blank:** The price won't be displayed
+**Default::** 2,171.50
+**Amount no decimals:** 2171
+**Amount with comma seperator:** 2170,50
+**Amount No Decimals with comma separator:** 2171
+**Amount with apostrophe separator:** 2170'50
+**Amount no decimals with space separator:** 2171
+**Amount:** 2170.50
 
 ## What is the mobile/desktop z-index?
 Imagine you had a stack of papers numbered 1-10.  The page with #10 is at the top, and #1 is at the bottom of the stack.  If you added a new page with #5, it would go in the middle of the stack.  If you added one with a #11, it would go at the top of the stack.  Or if you added one with #9999, it would go above everything.  
