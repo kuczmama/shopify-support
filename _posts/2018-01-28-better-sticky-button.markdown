@@ -80,6 +80,10 @@ Aside from being easier to reach while holding a mobile device, Better Sticky Bu
 
 No more guessing where to place your button or worrying about long product descriptions that take customers away from your button!
 
+Also we give the option to allow you to skip the add to cart page and go straight to checkout.  This can help to reduce the complexity of the checkout experience.  This gives the customer less time to think on whether or not they want to purchase the item.  This can help to increase in an impulse buy.
+
+Removing this 1 small step is removing one more obstacle for the consumer, which will help to make the checkout process more seamless, reduce abandoned carts, and ultimately help to increase your sales. 
+
 ## I found a bug?  What should I do?
 Email us at: support@doersoutdoors.com
 
@@ -112,10 +116,7 @@ Customers can make faster decisions
 - You can customize like crazy
 - Enable custom styling
 - Change your currency symbol
-- Bar background color
-- Button background color
-- Bar text color
-- Button text color
+- Customize Colors
 - Transparency of bar
 - Fade in effects (ie how far down the page you want it to scroll in)
 
