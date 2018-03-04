@@ -7,7 +7,7 @@ categories: jekyll update
 # FAQ
 
 ## Need Help?
-Email Us at: support@doersoutdoors.com
+Email Us at: support@doersoutdoors.com or call at (216) 800 - 6436
 
 ## What does it do?
 - When you scroll a buy button becomes visible
@@ -106,14 +106,12 @@ Customers can make faster decisions
 - Change Buy Button text
 - Set bar position to the top, left, bottom, and right
 - Enable custom css
-- 10 different button animations
 - Show the quantity selected
 - Show product variants
 - Show compare at price
 - Facebook pixel integration
 - Google Analytics integration
 - Format the price
-- You can customize like crazy
 - Enable custom styling
 - Change your currency symbol
 - Customize Colors
