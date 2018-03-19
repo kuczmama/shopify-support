@@ -57,6 +57,31 @@ Currency symbols are how the numbers are formatted.  Let's imagine we were showi
 
 **Amount:** 2170.50
 
+## What if a product is sold out- how does your button change? 
+The better sticky button matches the text of the regular shopify add to cart button.  So ff a product is sold out it looks exactly like it would on the regular shopify add to cart, button. The button will become disabled,
+and it will show the text "Sold Out" or whatever text is visible on your shopify button
+
+
+## Some of my variants are too large and are being cut off?  How can I fix that? 
+
+If your variants are too large you have a couple of options to get the styling correct.
+
+**1. You can change the variant name length.**
+
+So for example change "This is very small"　＝＞ "small"
+
+
+2. You can add some custom CSS.
+
+You could try adding the following custom css to "Styling => Custom CSS"
+
+ <pre>
+	.fixedBuyBarVariants{padding-left: 0px; font-size: .8vw;}
+</pre>
+
+This will make the text for your variants smaller.
+
+
 ## What is the mobile/desktop z-index?
 Imagine you had a stack of papers numbered 1-10.  The page with #10 is at the top, and #1 is at the bottom of the stack.  If you added a new page with #5, it would go in the middle of the stack.  If you added one with a #11, it would go at the top of the stack.  Or if you added one with #9999, it would go above everything.  
 
